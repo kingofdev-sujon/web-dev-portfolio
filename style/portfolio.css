@@ -150,3 +150,48 @@ main section{
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+/* resume styles */
+
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title {
+  color: #757575;
+}
+
+.btn-download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* footer styles */
+
+footer{
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+footer input[type="text"], input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  width: 100%;
+}
